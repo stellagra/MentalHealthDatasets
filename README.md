@@ -1,5 +1,4 @@
-# Automatic Face Analysis
-
+# Mental Health Datasets
 This repository shall provide a collection about databases and tools for the analysis of faces. 
 The intention is to gather datasets which are available. However, dataset which are not available might be added since those can be helpful as a source of related work. 
 Please note that this repo is under development. Feel free to reach out for additions, and/or corrections. If you find a link or reference is outdated, I am happy to receive your feedback for corrections. 
