@@ -173,6 +173,12 @@ Includes datasets on diagnosed psychotic disorders as well as individuals at ult
   * reference: Hammal Z, Cohn JF, Messinger DS. "Head Movement Dynamics During Play and Perturbed Mother-Infant Interaction." IEEE Trans Affect Comput. 2015 Oct-Dec;6(4):361-370.
   * available: ?
 
+- [The Craniofacial Microsomia: Longitudinal Outcomes in Children pre-Kindergarten (CLOCK)](https://pubmed.ncbi.nlm.nih.gov/30621445/) (2019)
+  * Longitudinal cohort study of neurobehavioural outcomes in infants and toddlers with craniofacial microsomia (CFM). 108 cases and 84 controls.
+  * annotations: neurobehavioural outcomes, CFM severity
+  * reference: Luquetti DV et al. "Methods and Challenges in a Cohort Study of Infants and Toddlers With Craniofacial Microsomia: The Clock Study." Cleft Palate Craniofac J. 2019 Aug;56(7):877-889.
+  * available: ?
+
 
 ---
 
