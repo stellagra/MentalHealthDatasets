@@ -96,15 +96,15 @@ Entries are listed as:
   
 The Audio/Visual Emotion Challenge (AVEC) series released several benchmark datasets, many of which are directly relevant to depression detection. Listed separately here as they are frequently searched for by name, even though several overlap with the DAIC family above.
   
-  - **AVEC 2013 / AVEC 2014** — based on the [AVEC/AViD-Corpus (audio-visual depressive language corpus)](https://www.audeering.com/research/avec/), with self-reported BDI-II depression scores.
+  - **AVEC 2013 / AVEC 2014** — based on the AVEC/AViD-Corpus (audio-visual depressive language corpus) (link deprecated - tbd), with self-reported BDI-II depression scores.
     * 📧 available: upon request via the challenge organizers
   
-  - **AVEC 2016 / AVEC 2017** — Depression sub-challenge based on [DAIC-WOZ](#depression) (see above).
+  - **AVEC 2016 / AVEC 2017** — Depression sub-challenge based on DAIC-WOZ (see above).
     * 📧 available: upon request for academics (DAIC-WOZ)
   
   - **AVEC 2018** — Turkish Audio-Visual Bipolar Disorder Corpus (see bipolar below) - no longer available
   
-  - **AVEC 2019** — "Detecting Depression with AI" sub-challenge based on [Extended DAIC](#depression) (see above).
+  - **AVEC 2019** — "Detecting Depression with AI" sub-challenge based on Extended DAIC (see above).
     * 📧 available: upon request for academics (Extended DAIC)
   
   
