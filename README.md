@@ -39,9 +39,10 @@ Availability is indicated as follows:
 
 - ✅ Free to download
 - 📧 Free upon request (most are for academics only 🎓)
-- 🔒 Not publicly available
 - 💰 Payment required
+- 🔒 Not publicly available
 - ❌ No longer available
+- ❓ uncertain
 
 ### Modality Legend
 
@@ -87,7 +88,7 @@ Entries with details are listed as as follows
   * The Distress Analysis Interview Corpus of human and computer interviews
   * annotations: PHQ-8 (depression), and more
   * reference: Gratch J, Artstein R, Lucas GM, Stratou G, Scherer S, Nazarian A, Wood R, Boberg J, DeVault D, Marsella S, Traum DR. The Distress Analysis Interview Corpus of Human and Computer Interviews. In Proceedings of LREC 2014 May (pp. 3123-3128).
-  * ❌ available: does not seem to be available as a whole
+  * ❌ available: full corpus not publicly released; only the DAIC-WOZ subset is available (see below)
 
 - [DAIC-WOZ Database](https://dcapswoz.ict.usc.edu/)
   * Subset of the larger DAIC. Virtual interviewer. 189 sessions ranging 7–33 minutes (average 16 minutes). Contains features extracted from video (not actual footage), transcripts, participant audio, and facial expressions (FACS-encoded by OpenFace 2.0).
@@ -129,12 +130,13 @@ Entries with details are listed as as follows
 The Audio/Visual Emotion Challenge (AVEC) series released several benchmark datasets, many of which are directly relevant to depression detection. Listed separately here as they are frequently searched for by name, even though several overlap with the DAIC family above.
   
   - **AVEC 2013 / AVEC 2014** — based on the AVEC/AViD-Corpus (audio-visual depressive language corpus) (link deprecated - tbd), with self-reported BDI-II depression scores.
-    * 📧 available: upon request via the challenge organizers
-  
+    * ❓ available: uncertain — original distribution link deprecated; contact AVEC challenge organizers
+      
   - **AVEC 2016 / AVEC 2017** — Depression sub-challenge based on DAIC-WOZ (see above).
     * 📧 available: upon request for academics (DAIC-WOZ)
   
-  - **AVEC 2018** — Turkish Audio-Visual Bipolar Disorder Corpus (see bipolar below) - no longer available
+  - **AVEC 2018** — Turkish Audio-Visual Bipolar Disorder Corpus (see bipolar below) 
+    * ❌ no longer available
   
   - **AVEC 2019** — "Detecting Depression with AI" sub-challenge based on Extended DAIC (see above).
     * 📧 available: upon request for academics (Extended DAIC)
@@ -188,7 +190,7 @@ Includes datasets on diagnosed psychotic disorders as well as individuals at ult
   * annotations: 4-class emotion labels (parent-annotated), ASD diagnosis (level 1)
   * reference: Sousa A, Young K, d'Aquin M, Zarrouk M, Holloway J. "Introducing CALMED: Multimodal Annotated Dataset for Emotion Detection in Children with Autism.", In: Universal Access in Human-Computer Interaction, HCII 2023. Lecture Notes in Computer Science, vol 14020. Springer, Cham. doi: 10.1007/978-3-031-35681-0_43
   * code: [github](https://github.com/annanda/emotion_detection_for_children_with_asd)
-  * 🔒 available: does not seem to be available (check with authors)
+  * ❓ available: uncertain. Does not seem to be available (check with authors)
 
 - [Hugging Rain Man (HRM) Dataset](https://ieeexplore.ieee.org/document/10955738/) [github](https://github.com/Jonas-DL/Hugging-Rain-Man)
   * ~130,000 frames of posed and spontaneous facial expressions from 98 children
@@ -206,7 +208,7 @@ Includes datasets on diagnosed psychotic disorders as well as individuals at ult
     EU H2020-funded project across multiple countries/cultures aimed at enhancing social imagination skills in children with ASD.
   * annotations: engagement, affect, and behavioural labels; facial, vocal and verbal cues
   * reference: Riva G, Riva E. "DE-ENIGMA: Multimodal Human–Robot Interaction for Teaching and Expanding Social Imagination in Autistic Children." Cyberpsychology, Behavior, and Social Networking. 2020;23(11):806-807. doi: 10.1089/cyber.2020.29200.ceu
-  * 🔒 not available ([project website](de-enigma.eu) no longer available)
+  * ❓uncertain availability. It appears not to be available, because [project website](de-enigma.eu) no longer available.
 
 
 ---
@@ -256,7 +258,7 @@ Includes datasets on diagnosed psychotic disorders as well as individuals at ult
 - [StudentSADD Dataset](https://emutivo.wpi.edu/index.php/data/)
   * Student suicidal ideation and depression detection dataset.
   * annotations: suicidal ideation, depression labels
-  * available: see project page
+  * ❓ available: uncertain (checkproject webpage)
   * full entry also listed under [Depression](#depression)
 
 ---
