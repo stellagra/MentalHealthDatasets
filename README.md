@@ -169,7 +169,7 @@ Includes datasets on diagnosed psychotic disorders as well as individuals at ult
   * 45-second videotaped "audition" task (High-Risk Social Challenge, HiSoC) from 108 individuals at ultra-high risk (UHR) for psychosis and 65 matched healthy controls.
   * annotations: UHR/HC group label, CAARMS (attenuated psychotic symptoms), SANS (negative symptoms), HiSoC social skills ratings (16 items + 3 factors + general impression + total), demographics (age, sex, parental SES), medication status (antipsychotic naive/exposed), DSM diagnoses, substance use
   * reference: Glenthøj LB, Fagerlund B, Randers L, Hjorthøj CR, Wenneberg C, Krakauer K, Vosgerau A, Gluud C, Medalia A, Roberts DL, Nordentoft M. "The FOCUS trial: cognitive remediation plus standard treatment versus standard treatment for patients at ultra-high risk for psychosis: study protocol for a randomised controlled trial." Trials. 2015 Jan 27;16:25. doi: 10.1186/s13063-014-0542-8. PMID: 25623736; PMCID: PMC4318160.
-  * ❌ not available: not publicly available (contact authors)
+  * 🔒 not available: not publicly available (contact authors)
 
 
 ---
@@ -188,7 +188,7 @@ Includes datasets on diagnosed psychotic disorders as well as individuals at ult
   * annotations: 4-class emotion labels (parent-annotated), ASD diagnosis (level 1)
   * reference: Sousa A, Young K, d'Aquin M, Zarrouk M, Holloway J. "Introducing CALMED: Multimodal Annotated Dataset for Emotion Detection in Children with Autism.", In: Universal Access in Human-Computer Interaction, HCII 2023. Lecture Notes in Computer Science, vol 14020. Springer, Cham. doi: 10.1007/978-3-031-35681-0_43
   * code: [github](https://github.com/annanda/emotion_detection_for_children_with_asd)
-  * ❌ available: does not seem to be available (check with authors)
+  * 🔒 available: does not seem to be available (check with authors)
 
 - [Hugging Rain Man (HRM) Dataset](https://ieeexplore.ieee.org/document/10955738/) [github](https://github.com/Jonas-DL/Hugging-Rain-Man)
   * ~130,000 frames of posed and spontaneous facial expressions from 98 children
@@ -206,7 +206,7 @@ Includes datasets on diagnosed psychotic disorders as well as individuals at ult
     EU H2020-funded project across multiple countries/cultures aimed at enhancing social imagination skills in children with ASD.
   * annotations: engagement, affect, and behavioural labels; facial, vocal and verbal cues
   * reference: Riva G, Riva E. "DE-ENIGMA: Multimodal Human–Robot Interaction for Teaching and Expanding Social Imagination in Autistic Children." Cyberpsychology, Behavior, and Social Networking. 2020;23(11):806-807. doi: 10.1089/cyber.2020.29200.ceu
-  * ❌ not available ([project website](de-enigma.eu) no longer available)
+  * 🔒 not available ([project website](de-enigma.eu) no longer available)
 
 
 ---
@@ -232,20 +232,20 @@ Includes datasets on diagnosed psychotic disorders as well as individuals at ult
   * 71 mother-infant dyads (4-month-olds; 24 with maternal PPD, 47 typical), recorded during a 10-minute face-to-face free-play session. Frame-by-frame IFA coding (positive/neutral/negative, 3 min per dyad).
   * annotations: IFA affect labels — 5 categories (positive high/low, neutral, negative high/low); commonly collapsed to 3 (positive/neutral/negative), maternal PPD status, EPDS scores, demographics.
   * reference: Egmose I, Cordes K, Smith-Nielsen J, Væver MS, Køppe S. "Mutual regulation between infant facial affect and maternal touch in depressed and nondepressed dyads." Infant Behavior and Development. 2018;50:274-283. doi: 10.1016/j.infbeh.2017.05.007
-  * ❌ available: not publicly available
+  * 🔒 available: not publicly available
 
 - [The Craniofacial Microsomia: Longitudinal Outcomes in Children pre-Kindergarten (CLOCK)](https://pubmed.ncbi.nlm.nih.gov/30621445/) (2019)
   * Longitudinal cohort study of neurobehavioural outcomes in infants and toddlers with craniofacial microsomia (CFM). 108 cases and 84 controls recruited from 5 US craniofacial/otolaryngology clinics, followed from age 12–24 months to age 36–48 months. Includes phenotypic, neurodevelopmental, and facial expression assessments.
   * annotations: CFM severity (PAT-CFM), neurodevelopmental outcomes (Bayley-III, CELF-P2), hearing loss, social communication, demographics
   * reference: Luquetti DV, Speltz ML, Wallace ER, et al. "Methods and Challenges in a Cohort Study of Infants and Toddlers With Craniofacial Microsomia: The CLOCK Study." Cleft Palate Craniofac J. 2019;56(7):877-889. doi: 10.1177/1055665618821014
-  * ❌ available: not publicly available
+  * 🔒 available: not publicly available
 
 
 - [MIAMI](https://pubmed.ncbi.nlm.nih.gov/26640622/) (2015)
   * Head movement dynamics of 42 4-month-old infants and their mothers during the Still Face paradigm (Play → Still Face → Reunion, 2 min each). Angular displacement and velocity measured using the CSIRO head tracker.
   * annotations: head movement dynamics (angular displacement, angular velocity), interaction phase labels (Play, Still Face, Reunion)
   * reference: Hammal Z, Cohn JF, Messinger DS. "Head Movement Dynamics During Play and Perturbed Mother-Infant Interaction." IEEE Trans Affect Comput. 2015 Oct-Dec;6(4):361-370. doi: 10.1109/TAFFC.2015.2422702
-  * ❌ available: not publicly available
+  * 🔒 available: not publicly available
 
 
 
@@ -307,6 +307,8 @@ General affective-computing or multi-domain resources that are not specific to a
 ---
 
 ## 2DO
+- add overview table
+- add missing info
 - check if [EMU](https://github.com/mltlachac/EMU) or [here](https://emutivo.wpi.edu/index.php/data/) should be added (depression? audio+text)
 - Check [list of databases by Mahoor](https://mohammadmahoor.com/pages/databases/) for additional entries
 
