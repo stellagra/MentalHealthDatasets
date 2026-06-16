@@ -16,6 +16,7 @@ This repo is under development. Feel free to reach out for additions and/or corr
 ## Table of Contents
 
 - [Notation](#notation)
+- [Table Overview](#table-overview)
 - [Depression](#depression)
 - [Bipolar Disorder](#bipolar-disorder)
 - [Schizophrenia & Psychosis](#schizophrenia--psychosis)
@@ -33,6 +34,7 @@ This repo is under development. Feel free to reach out for additions and/or corr
 
 ## Notation
 
+### Availability 
 Availability is indicated as follows:
 
 - ✅ Free to download
@@ -41,13 +43,41 @@ Availability is indicated as follows:
 - 💰 Payment required
 - ❌ No longer available
 
-Entries are listed as:
+### Modality Legend
+
+| Symbol | Modality |
+|:---:|---|
+| 🎥 | Video (raw footage) |
+| 🖼️ | Images (raw) |
+| 📐 | Facial features / AUs (extracted, e.g. via OpenFace, PyAFAR) |
+| 👁️ | Eye gaze / Eye tracking |
+| 🎙️ | Audio (raw) |
+| 📝 | Text / Transcripts |
+| 🧠 | EEG |
+| ⌚ | Wearable / Actigraphy |
+| 📱 | Smartphone logs (calls, SMS) |
+| 🦴 | Skeletal / Pose |
+| 💓 | Physiological (HR, EDA) |
+
+### Description (below)
+
+Entries with details are listed as as follows
 
 - name + link
   * short description
   * annotations: ...
   * reference: ...
   * available: ...
+
+
+
+---
+
+## Table Overview
+
+| Dataset | Condition (Measure) | Modalities | N | Access |
+|---|---|:---:|---|:---:|
+| [DAIC-WOZ](https://dcapswoz.ict.usc.edu/) | Depression (PHQ-8), PTSD (PCL-C) | 📐 🎙️ 📝 | 189 sessions | 📧 |
 
 ---
 
@@ -76,7 +106,6 @@ Entries are listed as:
   * reference: "A Motor Activity Database of Depression Episodes in Unipolar and Bipolar Patients"
   * ✅ available: free to download
 
-
 - [The DepreST Call and Text (DepreST-CAT) Dataset](https://github.com/mltlachac/DepreST-CAT) ([project page](https://emutivo.wpi.edu/index.php/data/))
   * Call and text logs collected during COVID-19 pandemic. 369 Prolific crowd-sourced participants.
   * annotations: demographics, PHQ-9 (depression), GAD-7 (anxiety)
@@ -84,13 +113,16 @@ Entries are listed as:
   * ✅ available: free for academic use
   * also relevant to [Anxiety & Stress](#anxiety--stress) (GAD-7 scores)
 
-
 - [StudentSADD Dataset](https://emutivo.wpi.edu/index.php/data/)
   * Student suicidal ideation and depression detection dataset.
   * annotations: suicidal ideation, depression labels
-  * available: see project page
+  * available: tbd (see project page)
   * also listed under [Suicide Risk & Crisis Intervention](#suicide-risk--crisis-intervention)
 
+
+
+
+---
 
 ### AVEC Challenge Datasets
   
@@ -132,12 +164,13 @@ The Audio/Visual Emotion Challenge (AVEC) series released several benchmark data
 
 Includes datasets on diagnosed psychotic disorders as well as individuals at ultra-high risk (UHR) / clinical-high-risk (CHR) for psychosis.
 
-- [FOCUS-trial](https://pubmed.ncbi.nlm.nih.gov/25623736/)
+- [FOCUS trial](https://pubmed.ncbi.nlm.nih.gov/25623736/) 
   * FOCUS trial (Function and Overall Cognition in Ultra-high risk States) is a randomised, parallel group, observer-blinded clinical trial enrolling 126 patients meeting the standardised criteria of being at UHR for psychosis.
-  * 45-second videotaped "audition" task (High-Risk Social Challenge, HiSoC) from 108 individuals at ultra-high risk (UHR) for psychosis and 65 matched healthy controls. 
-  * annotations: UHR/HC group, CAARMS (attenuated psychotic symptoms), SANS (negative symptoms), HiSoC social skills ratings, demographics, medication status
-  reference: Glenthøj LB, Fagerlund B, Randers L, Hjorthøj CR, Wenneberg C, Krakauer K, Vosgerau A, Gluud C, Medalia A, Roberts DL, Nordentoft M. The FOCUS trial: cognitive remediation plus standard treatment versus standard treatment for patients at ultra-high risk for psychosis: study protocol for a randomised controlled trial. Trials. 2015 Jan 27;16:25. doi: 10.1186/s13063-014-0542-8. PMID: 25623736; PMCID: PMC4318160.
-  * available: tbd
+  * 45-second videotaped "audition" task (High-Risk Social Challenge, HiSoC) from 108 individuals at ultra-high risk (UHR) for psychosis and 65 matched healthy controls.
+  * annotations: UHR/HC group label, CAARMS (attenuated psychotic symptoms), SANS (negative symptoms), HiSoC social skills ratings (16 items + 3 factors + general impression + total), demographics (age, sex, parental SES), medication status (antipsychotic naive/exposed), DSM diagnoses, substance use
+  * reference: Glenthøj LB, Fagerlund B, Randers L, Hjorthøj CR, Wenneberg C, Krakauer K, Vosgerau A, Gluud C, Medalia A, Roberts DL, Nordentoft M. "The FOCUS trial: cognitive remediation plus standard treatment versus standard treatment for patients at ultra-high risk for psychosis: study protocol for a randomised controlled trial." Trials. 2015 Jan 27;16:25. doi: 10.1186/s13063-014-0542-8. PMID: 25623736; PMCID: PMC4318160.
+  * ❌ not available: not publicly available (contact authors)
+
 
 ---
 
@@ -148,6 +181,33 @@ Includes datasets on diagnosed psychotic disorders as well as individuals at ult
   * annotations: ASD / control labels, eye movement trajectories
   * reference: H. Duan, G. Zhai, X. Min, Z. Che, Y. Fang, X. Yang, J. Gutiérrez, P. Le Callet. "A Dataset of Eye Movements for the Children with Autism Spectrum Disorder." ACM MMSys'19, Jun. 2019.
   * ✅ available: free to download
+
+
+- [CALMED (Children, Autism, Multimodal, Emotion, Detection)](https://link.springer.com/chapter/10.1007/978-3-031-35681-0_43) ([arxiv](https://arxiv.org/abs/2307.13706))
+  * Audio and video features extracted from study sessions with children with ASD (level 1 diagnosis), aged 8–12. 57,012 examples, each representing a 200ms time window. Annotations provided by parents into four target emotion classes.
+  * annotations: 4-class emotion labels (parent-annotated), ASD diagnosis (level 1)
+  * reference: Sousa A, Young K, d'Aquin M, Zarrouk M, Holloway J. "Introducing CALMED: Multimodal Annotated Dataset for Emotion Detection in Children with Autism.", In: Universal Access in Human-Computer Interaction, HCII 2023. Lecture Notes in Computer Science, vol 14020. Springer, Cham. doi: 10.1007/978-3-031-35681-0_43
+  * code: [github](https://github.com/annanda/emotion_detection_for_children_with_asd)
+  * ❌ available: does not seem to be available (check with authors)
+
+- [Hugging Rain Man (HRM) Dataset](https://ieeexplore.ieee.org/document/10955738/) [github](https://github.com/Jonas-DL/Hugging-Rain-Man)
+  * ~130,000 frames of posed and spontaneous facial expressions from 98 children
+    (66 ASD, 32 TD), aged 2–12. Manually annotated by FACS experts. Raw images are
+    not publicly available due to privacy/ethics; AU labels, extracted features, and
+    pre-trained models are released.
+  * annotations: 22 Facial Action Units (AUs), 10 Action Descriptors (ADs), atypicality ratings, ASD/TD group label (DSM-5 criteria)
+  * reference: Ji Y, Wang S, Xu R, Chen J, Quan Y, Jiang X, Deng Z, Liu J., "Hugging Rain Man: A Novel Facial Action Units Dataset for Analyzing Atypical Facial Expressions in Children with Autism Spectrum Disorder." IEEE Transactions on Affective Computing. 2025; 16:2287-2302.doi: 10.1109/TAFFC.2025.3558914
+  * ✅ available: AU labels, extracted features, and pre-trained models publicly available (CC BY-NC-SA 4.0, non-commercial research only)
+      * not available: raw images have not been released — see [github](https://github.com/Jonas-DL/Hugging-Rain-Man)
+
+
+- [DE-ENIGMA Dataset](https://cordis.europa.eu/project/id/688835)
+  * Multimodal dataset of children with ASD interacting with a humanoid robot during therapy sessions, including facial mapping coordinates, visual and audio data.
+    EU H2020-funded project across multiple countries/cultures aimed at enhancing social imagination skills in children with ASD.
+  * annotations: engagement, affect, and behavioural labels; facial, vocal and verbal cues
+  * reference: Riva G, Riva E. "DE-ENIGMA: Multimodal Human–Robot Interaction for Teaching and Expanding Social Imagination in Autistic Children." Cyberpsychology, Behavior, and Social Networking. 2020;23(11):806-807. doi: 10.1089/cyber.2020.29200.ceu
+  * ❌ not available ([project website](de-enigma.eu) no longer available)
+
 
 ---
 
@@ -167,17 +227,26 @@ Includes datasets on diagnosed psychotic disorders as well as individuals at ult
 
 ## Infant & Early Development
 
-- [MIAMI](https://pubmed.ncbi.nlm.nih.gov/26640622/) (2015)
-  * Head movement in mothers and infants during the Still Face paradigm. 42 infants (4-month-olds) and their mothers.
-  * annotations: head movement dynamics, interaction phase labels
-  * reference: Hammal Z, Cohn JF, Messinger DS. "Head Movement Dynamics During Play and Perturbed Mother-Infant Interaction." IEEE Trans Affect Comput. 2015 Oct-Dec;6(4):361-370.
-  * available: ?
+
+- [Infant Facial Affect (IFA) — Mother-Infant Free-Play Dataset](https://doi.org/10.1016/j.infbeh.2017.05.007)
+  * 71 mother-infant dyads (4-month-olds; 24 with maternal PPD, 47 typical), recorded during a 10-minute face-to-face free-play session. Frame-by-frame IFA coding (positive/neutral/negative, 3 min per dyad).
+  * annotations: IFA affect labels — 5 categories (positive high/low, neutral, negative high/low); commonly collapsed to 3 (positive/neutral/negative), maternal PPD status, EPDS scores, demographics.
+  * reference: Egmose I, Cordes K, Smith-Nielsen J, Væver MS, Køppe S. "Mutual regulation between infant facial affect and maternal touch in depressed and nondepressed dyads." Infant Behavior and Development. 2018;50:274-283. doi: 10.1016/j.infbeh.2017.05.007
+  * ❌ available: not publicly available
 
 - [The Craniofacial Microsomia: Longitudinal Outcomes in Children pre-Kindergarten (CLOCK)](https://pubmed.ncbi.nlm.nih.gov/30621445/) (2019)
-  * Longitudinal cohort study of neurobehavioural outcomes in infants and toddlers with craniofacial microsomia (CFM). 108 cases and 84 controls.
-  * annotations: neurobehavioural outcomes, CFM severity
-  * reference: Luquetti DV et al. "Methods and Challenges in a Cohort Study of Infants and Toddlers With Craniofacial Microsomia: The Clock Study." Cleft Palate Craniofac J. 2019 Aug;56(7):877-889.
-  * available: ?
+  * Longitudinal cohort study of neurobehavioural outcomes in infants and toddlers with craniofacial microsomia (CFM). 108 cases and 84 controls recruited from 5 US craniofacial/otolaryngology clinics, followed from age 12–24 months to age 36–48 months. Includes phenotypic, neurodevelopmental, and facial expression assessments.
+  * annotations: CFM severity (PAT-CFM), neurodevelopmental outcomes (Bayley-III, CELF-P2), hearing loss, social communication, demographics
+  * reference: Luquetti DV, Speltz ML, Wallace ER, et al. "Methods and Challenges in a Cohort Study of Infants and Toddlers With Craniofacial Microsomia: The CLOCK Study." Cleft Palate Craniofac J. 2019;56(7):877-889. doi: 10.1177/1055665618821014
+  * ❌ available: not publicly available
+
+
+- [MIAMI](https://pubmed.ncbi.nlm.nih.gov/26640622/) (2015)
+  * Head movement dynamics of 42 4-month-old infants and their mothers during the Still Face paradigm (Play → Still Face → Reunion, 2 min each). Angular displacement and velocity measured using the CSIRO head tracker.
+  * annotations: head movement dynamics (angular displacement, angular velocity), interaction phase labels (Play, Still Face, Reunion)
+  * reference: Hammal Z, Cohn JF, Messinger DS. "Head Movement Dynamics During Play and Perturbed Mother-Infant Interaction." IEEE Trans Affect Comput. 2015 Oct-Dec;6(4):361-370. doi: 10.1109/TAFFC.2015.2422702
+  * ❌ available: not publicly available
+
 
 
 ---
@@ -193,6 +262,31 @@ Includes datasets on diagnosed psychotic disorders as well as individuals at ult
 ---
 
 ## Multimodal and General Mental Health Resources
+
+Related and beyond stuff (remove?).
+General affective-computing or multi-domain resources that are not specific to a single diagnostic category but are commonly used in mental health ML pipelines.
+
+- [MultiWOZ — A Large-Scale Multi-Domain Wizard-of-Oz Dataset for Task-Oriented Dialogue Modelling](https://aclanthology.org/D18-1547/)
+  * 10k dialogues (3,406 single-domain, 7,032 multi-domain). General dialogue dataset, occasionally used as pretraining/background data for conversational mental health agents.
+  * reference: Paweł Budzianowski et al. "MultiWOZ - A Large-Scale Multi-Domain Wizard-of-Oz Dataset for Task-Oriented Dialogue Modelling." EMNLP 2018, Brussels.
+  * 📧 available: upon request for academics
+
+
+## Related Resources (Not Mental Health Datasets)
+
+- [YouTube Facial Palsy (YFP) Database](https://sites.google.com/view/yfp-database) (2018)
+  * 32 videos of 21 patients from YouTube; some patients have multiple videos. Not a mental health dataset per se, but relevant for facial AU/expression pipelines applied across clinical populations.
+  * annotations: manually labelled local palsy regions, location (eyes, mouth), intensity (low or high)
+  * reference: Gee-Sern Jison Hsu, Jiunn-Horng Kang, Wen-Fong Huang. "Deep Hierarchical Network With Line Segment Learning for Quantitative Analysis of Facial Palsy." IEEE Access, vol. 7, 4833-4842, Dec. 2018.
+  * 📧 available: upon request for academics
+
+- [RAVDESS](https://zenodo.org/record/1188976) (2018)
+  * The Ryerson Audio-Visual Database of Emotional Speech and Song. 7356 recordings, each rated 10 times on emotional validity, intensity, and genuineness by 247 individuals.
+  * subjects: 24 professional actors (12 female, 12 male)
+  * annotations: emotion + intensity — calm, happy, sad, angry, fearful, surprise, disgust at two intensity levels + neutral
+  * reference: Livingstone SR, Russo FA (2018). "The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS)." PLoS ONE 13(5).
+  * ✅ available: Creative Commons Attribution
+
 
 ---
 
@@ -213,7 +307,8 @@ Includes datasets on diagnosed psychotic disorders as well as individuals at ult
 ---
 
 ## 2DO
-- fill in the gaps
+- check if [EMU](https://github.com/mltlachac/EMU) or [here](https://emutivo.wpi.edu/index.php/data/) should be added (depression? audio+text)
+- Check [list of databases by Mahoor](https://mohammadmahoor.com/pages/databases/) for additional entries
 
 ---
 
