@@ -76,14 +76,19 @@ Entries with details are listed as as follows
 
 ## Table Overview
 
+Note: Table in progress. 
+It does not yet contain all datasets which are listed below. Consider it a draft which might still change a lot.
+
 | Dataset | Condition (Measure) | Modalities | N | Access |
 |---|---|:---:|---|:---:|
-| [DAIC](https://aclanthology.org/L14-1421/) | Depression (PHQ-8), PTSD | 🎙️ 📝 | tbd | ❌ |
+| [DAIC](https://aclanthology.org/L14-1421/) | Depression (PHQ-8), PTSD | 🎙️ 📝 | - | ❌ |
 | [DAIC-WOZ](https://dcapswoz.ict.usc.edu/) | Depression (PHQ-8), PTSD (PCL-C) | 📐 🎙️ 📝 | 189 sessions | 📧 |
 | [Extended DAIC](https://dcapswoz.ict.usc.edu/) | Depression (PHQ-8), PTSD (PCL-C) | 📐 🎙️ 📝 | >189 sessions | 📧 |
 | [Depresjon](https://datasets.simula.no/depresjon/) | Depression (ICD-10), Bipolar (ICD-10) | ⌚ | 55 patients | ✅ |
 | [DepreST-CAT](https://github.com/mltlachac/DepreST-CAT) | Depression (PHQ-9), Anxiety (GAD-7) | 📱 | 369 participants | ✅ |
 | [StudentSADD](https://emutivo.wpi.edu/index.php/data/) | Depression, Suicide risk (ideation labels) | 📝 📱 | tbd | 📧 |
+
+
 
 ---
 
