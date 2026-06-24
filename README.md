@@ -8,7 +8,7 @@ This repo is under development. Feel free to reach out for additions and/or corr
 
 - I neither claim completeness nor correctness. No guarantees.
 - Access rights to the databases might change or licenses might run out.
-- I do not own any of the following databases. For questions about access and details, do NOT contact me! Reach out to the respective authors.
+- **I do not own any of the following databases. For questions about access and details, do NOT contact me! Reach out to the respective authors.**
 
 
 ---
